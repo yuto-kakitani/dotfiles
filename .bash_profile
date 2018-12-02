@@ -1,12 +1,9 @@
-## PATH
-# eval "$(pyenv init -)"
-# export PATH=$PATH:/Users/kakitaniyuto/.pyenv/bin
-export PATH="$PATH:$HOME.pyenv/versions/anaconda3-5.1.0/bin"
-export PATH="$PATH:$HOME/.cargo/bin"
-export PATH="$PATH:$HOME/.local/bin"
+# PROMPT
+export PS1="\[\e[0;36m\]\u\[\e[0;37m\]@\[\e[0;32m\]\h: \[\e[0;33m\]\w \[\e[0;37m\]\$ \n\[\e[1;31m\]>\[\e[0;37m\] "
 
-## PROMPT
-export PS1="\u: \[\e[3;34m\]\w \[\e[1;34m\]\$ \n\[\e[1;35m\]>\[\e[0m\] "
+# Alias
+alias out='./a.out'
+alias gdb='gdb -q'
 
 
 ## Load ~./bashrc
