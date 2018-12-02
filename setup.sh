@@ -18,5 +18,5 @@ ln ./.vimrc ~/.vimrc
 ln ./.bash_profile ~/.bash_profile
 ln ./.gdbinit ~/.gdbinit
 
-vim -c "BundleInstall" -c "q" -c "q"
+sudo vim -c "BundleInstall" -c "q" -c "q"
 source ~./bash_profile
