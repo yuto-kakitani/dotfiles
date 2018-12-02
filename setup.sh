@@ -3,6 +3,9 @@
 # build-essential
 sudo apt-get install build-essential
 
+# Vim
+sudo apt-get install vim
+
 # gdb-peda
 git clone https://github.com/longld/peda.git ~/peda
 echo "source ~/peda/peda.py" >> ~/.gdbinit
