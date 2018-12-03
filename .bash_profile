@@ -6,5 +6,5 @@ alias out='./a.out'
 alias gdb='gdb -q'
 
 
-## Load ~./bashrc
-test -r ~/.bashrc && . ~/.bashrc
+# Load ~./bashrc
+# test -r ~/.bashrc && . ~/.bashrc
