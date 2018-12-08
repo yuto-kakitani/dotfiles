@@ -2,6 +2,8 @@
 alias vi='vim ~/.vimrc'
 alias vibash='vim ~/.bashrc'
 alias vialias='vim ~/.bash_alias'
+alias rebash='source ~/.bashrc'
+alias path='echo $PATH'
 alias out='./a.out'
 alias gdb='gdb -q'
 
