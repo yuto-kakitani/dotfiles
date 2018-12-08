@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # Synbolic linc
-ln ./.vimrc ~/.vimrc
-ln ./.bash_profile ~/.bash_profile
-ln ./.gdbinit ~/.gdbinit
+ln -s ./.vimrc ~/.vimrc
+ln -s ./.bash_alias ~/.bash_alias
+ln -s ./.gdbinit ~/.gdbinit
 
 # build-essential
 sudo apt-get install build-essential
@@ -22,4 +22,5 @@ git clone https://github.com/longld/peda.git ~/peda
 echo "source ~/peda/peda.py" >> ~/.gdbinit
 
 
-source ~/.bash_profile
+source ~/.bash_alias
+

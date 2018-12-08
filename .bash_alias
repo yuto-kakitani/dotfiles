@@ -1,0 +1,7 @@
+# Alias
+alias vi='vim ~/.vimrc'
+alias vibash='vim ~/.bashrc'
+alias vialias='vim ~/.bash_alias'
+alias out='./a.out'
+alias gdb='gdb -q'
+
